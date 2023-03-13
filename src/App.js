@@ -21,7 +21,7 @@ function App() {
     },1000*60*60);
   }
   let stop = (e) => {
-    setStopt(1);
+    setStopt(pre=>pre+1);
     setSecond(0);
     setMinute(0);
     setHour(0);
